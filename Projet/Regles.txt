@@ -1,0 +1,45 @@
+French:
+
+Après avoir lancé main.py vous aurez premièrement une sélection d'OS. Premièrement pour clear le terminal après chaque
+selection. Ceci permettant un "faux dynamisme", une homogénéité du programme.
+
+Ensuite, vous aurez à choisir un champ dans le menu :
+
+> Create    : Crée un personnage
+> Load      : Charge la dernière partie sauvegardée
+> About     : Simple About
+> End       : Fin du programme, quitter le programme
+
+Pour la création du personnage, on vous demandera premièrement le "pseudo" que vous souhaiterez donner à votre personnage.
+Vous choisirez par la suite un "'Type'/rôle", ayant des attributs différents les uns des autres de manière aléatoire.
+
+        exemple:
+            L'assassin aura plus de force, moins de résistance et moins de PV
+            Tandis qu'un Guerrier soit 'Warrior' obtiendra plus de PV, plus de résistance ainsi qu'une force égale à son 'type'.
+
+Vous allez 'Spawn' sur une map aléatoire, avec une répartition des 'mobs' et des 'chest' aléatoire selon la difficulté. Cependant
+le 'Boss' apparaîtra toujours au haut de la carte.
+
+Vous avancerez avec les commandes classiques "z|q|s|d".
+
+#Combat 'mob'/'Boss'
+Si vous allez sur un 'mob' ou un 'Boss', le combat va être automatiquement engagé. Vous aurez soit la possibilité d'attaquer directement.
+Ou bien d'accéder à votre inventaire et de choisir ce que vous voulez utiliser. L'objet utilisé va être automatiquement supprimé.
+/!\Vous pouvez mourrir alors faite attention/!\
+
+#Chest
+Vous récupérerez des objets aléatoires, ayant des propriétés aléatoires, selon la rareté de l'objet.
+Donc plus un objet est rare plus il aura de "bonnes" stats.
+
+#XP/LEVEL
+Vous pouvez augmenter en level, pour cela, vous devrez tuer le plus de mob possible. Plus le mob est fort, plus vous gagnerez de l'xp.
+Et plus vous êtes haut level, plus les mobs seronts forts.
+
+#esc
+Afin d'accéder au menu 'esc' en plein jeu. Vous devrez appuyer sur la touche 'm'. Vous pourrez donc voir vos stats, ainsi que
+votre inventaire actuel.
+Vous aurez la possibilité de "quitter sans sauvegarder", "sauvegarder et quitter" (>l'inventaire est sauvegarder) ou bien retourner au jeu.
+
+Vous pouvez passer le niveau actuel, une fois le 'Boss' tuer.
+
+by : Nagib Lakhdari
